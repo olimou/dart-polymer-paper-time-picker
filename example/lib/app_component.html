@@ -1,0 +1,25 @@
+<h1>Polymer Date Picker Example</h1>
+
+<paper-button raised (click)="datePickerDialog.open()">
+    Open dialog
+</paper-button>
+
+<p>{{myDate}}</p>
+
+<paper-calendar id="paper_calendar" (date-changed)="newDate($event)" locale="pt-br"></paper-calendar>
+
+<paper-date-picker (date-changed)="newDate()" locale="pt-br">ola</paper-date-picker>
+
+<paper-date-picker locale="pt-br" date="05-04-2017"></paper-date-picker>
+
+<paper-date-picker min-date="April 1, 2015" max-date="June 30, 2015"></paper-date-picker>
+
+<paper-dialog id="date_picker_dialog">
+    <paper-dialog-scrollable>
+        <paper-date-picker locale="pt-br" [(date)]="myDate"></paper-date-picker>
+    </paper-dialog-scrollable>
+    <div class="buttons">
+        <paper-button dialog-dismiss>Cancel</paper-button>
+        <paper-button dialog-confirm autofocus>Accept</paper-button>
+    </div>
+</paper-dialog>
