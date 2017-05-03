@@ -1,7 +1,7 @@
 name: polymer_time_picker
-description: Original project https://github.com/bendavis78/paper-date-picker
-version: 0.0.3
-homepage: https://github.com/olimou/dart-polymer-paper-date-picker
+description: Original project https://github.com/bendavis78/paper-time-picker
+version: 0.0.1
+homepage: https://github.com/olimou/dart-polymer-paper-time-picker
 author: Emerson Moura <olimou@gmail.com>
 
 environment:
