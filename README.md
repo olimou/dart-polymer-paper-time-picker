@@ -1,5 +1,7 @@
 paper-time-picker
 ==========
+Original project [project]
+
 Port of Material Design time picker, compatible with Polymer Dart
 
 Provides a responsive time picker based on the material design spec. This
@@ -51,6 +53,7 @@ If you find this component useful, please show your support by donating to
 
 [![ideaSpark campaign button][donate]](https://donorbox.org/bold-idea-make-ideaspark-possible-for-dallas-area-students)
 
+[project]: https://github.com/bendavis78/paper-time-picker
 [wide]: http://i.imgur.com/kosRJrF.png
 [narrow]: http://i.imgur.com/s3honuG.png
 [donate]: http://www.boldidea.org/donate-badge-md-1.png
